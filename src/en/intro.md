@@ -3,6 +3,6 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-# Intro Page
+# FlyingPig278
 
-Place your introduction and profile here.
+Personal introduction, but not feeling like writing it now.
