@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: FlyingPig278's Blog
+title: 主页
 heroImage: /logo3.png
 heroText: FlyingPig的博客
 heroFullScreen: true

@@ -66,7 +66,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Hundreds of sails pass by the side of sunken ship.Thousands of flowers bloom ahead of injured tree.",
 
       displayFooter: true,
 
@@ -90,7 +90,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "沉舟侧畔千帆过，病树前头万木春",
 
       displayFooter: true,
 
