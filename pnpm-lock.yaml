@@ -8,6 +8,9 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.67
     version: 2.0.0-beta.67
+  '@waline/client':
+    specifier: ^2.15.8
+    version: 2.15.8
   vue:
     specifier: ^3.3.4
     version: 3.3.6

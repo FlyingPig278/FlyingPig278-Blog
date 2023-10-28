@@ -38,5 +38,5 @@ projects:
   #   desc: Detailed description of this custom item
   #   link: https://link.to.your.friend
 
-footer: Hundreds of sails pass by the side of sunken ship.Thousands of flowers bloom ahead of injured tree.
+footer: A time will come to ride the wind and cleave the waves,I'll set my cloudlike sail to cross the sea which raves.
 ---
