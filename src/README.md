@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo3.png
-heroText: FlyingPig的博客
+heroText: FlyingPig278的博客
 heroFullScreen: true
 tagline: 一个无忧无虑的人呀~
 projects:

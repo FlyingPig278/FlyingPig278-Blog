@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Homepage
-heroImage: /logo.png
+heroImage: /logo3.png
 heroText: FlyingPig278's Blog
 tagline: Someone carefree and worry-free~
 heroFullScreen: true
