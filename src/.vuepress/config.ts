@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto/index.js";
 
 export default defineUserConfig({
   base: "/",
@@ -34,10 +35,11 @@ export default defineUserConfig({
         },
       ],
     }),
+    hitokotoPlugin({}),
   ],
 
   theme,
-
+  
   // Enable it with pwa
   // shouldPrefetch: false,
 });
