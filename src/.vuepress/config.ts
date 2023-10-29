@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto/index.js";
+import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto";
 
 export default defineUserConfig({
   base: "/",
