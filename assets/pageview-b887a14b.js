@@ -1,0 +1,1 @@
+import{l as t}from"./app-162871dc.js";const i=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-162871dc.js").then(r=>r.ai),[]);return e({serverURL:"https://comment.flyingpig.me/"})}catch{console.error("@waline/client is not installed!");return}};export{i as updatePageview};
