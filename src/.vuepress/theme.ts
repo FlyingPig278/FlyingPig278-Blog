@@ -13,7 +13,7 @@ export default MyTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo3.png",
+  logo: "https://cdn.jsdelivr.net/gh/FlyingPig278/blog-assets/logo.png",
 
   repo: "FlyingPig278/FlyingPig278-Blog",
 
