@@ -1,8 +1,8 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { MyTheme } from "./theme/index";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
-export default hopeTheme({
+export default MyTheme({
   hostname: "https://flyingpig.me",
 
   author: {
@@ -57,27 +57,6 @@ export default hopeTheme({
   },
 
   locales: {
-    "/en/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "A time will come to ride the wind and cleave the waves,I'll set my cloudlike sail to cross the sea which raves.",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A high school sophomore and amateur developer.",
-        intro: "/en/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
     /**
      * Chinese locale config
      */
@@ -106,8 +85,6 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/en/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -140,7 +117,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      revealjs: {
+      revealJs:{
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
       stylize: [
