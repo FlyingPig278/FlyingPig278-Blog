@@ -26,7 +26,7 @@ import { isString } from "@vuepress/shared";
 export default defineComponent({
   name: "BlogHero",
   setup() {
-    const defaultHeroBgImagePath = withBase("/assets/cover1.jpg");
+    const defaultHeroBgImagePath = withBase("/assets/images/cover1.jpg");
     const title = usePageHeadTitle();
     const frontmatter = usePageFrontmatter<ThemeHopePageFrontmatter>();
     const hero = ref();
