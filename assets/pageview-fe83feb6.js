@@ -1,0 +1,1 @@
+import{p as t}from"./app-aceff91d.js";const i=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-aceff91d.js").then(r=>r.aj),[]);return e({serverURL:"https://comment.flyingpig.me/"})}catch{console.error("@waline/client is not installed!");return}};export{i as updatePageview};
