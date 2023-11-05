@@ -2,6 +2,7 @@ import { defineUserConfig, viteBundler } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto";
+import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
   base: "/",
@@ -34,6 +35,10 @@ export default defineUserConfig({
   ],
 
   theme: theme,
+
+  alias:{
+    "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),
+  }
   // Enable it with pwa
   // shouldPrefetch: false,
 });

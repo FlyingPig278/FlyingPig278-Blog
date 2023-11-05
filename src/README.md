@@ -8,16 +8,20 @@ heroText: FlyingPig278的博客
 heroFullScreen: true
 tagline: 一个无忧无虑的人呀~
 projects:
-  # - icon: project
-  #   name: 项目名称
-  #   desc: 项目详细描述
-  #   link: https://你的项目链接
+  - icon: circle-info
+    name: 关于本站
+    desc: 关于本站的详细介绍~
+    link: /about
 
   - icon: link
     name: 常用链接
     desc: 点我发现新大陆~
-    link: https://链接地址
+    link: /link
 
+  - icon: link
+    name: 友情链接
+    desc: (●´∀｀●)ﾉ
+    link: /friends
   # - icon: book
   #   name: 书籍名称
   #   desc: 书籍详细描述
