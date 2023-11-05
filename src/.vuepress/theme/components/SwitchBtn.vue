@@ -41,13 +41,7 @@ const props = defineProps({
   rDisabled: Boolean,
 });
 const title = computed(() => {
-  if (props.bingData.copyright != undefined) {
-    const index = props.bingData.copyright.indexOf("(");
-    return index != -1
-      ? props.bingData.copyright.substring(0, index)
-      : props.bingData.copyright;
-  }
-  return props.bingData.copyright;
+  return props.bingData.locales.zh.title;
 });
 // 声明自定义事件
 const emit = defineEmits(["leftClick", "rightClick"]);

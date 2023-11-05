@@ -82,10 +82,9 @@ export default defineComponent({
     const getImage = () => {
       BingApi.request().then((res) => {
         if (res.status == 200) {
-          for (const [index, image] of res.data.images.entries()) {
-            image.url = `https://cn.bing.com/${image.url}`;
+          for (const [index, image] of res.data.entries()) {
             var n = new Image();
-            n.src = image.url;
+            n.src = image.wallpaper;
             n.onload = () => {};
             if (index == 0) {
               let f = document.querySelector(".footer-wrapper") as HTMLElement;
@@ -93,7 +92,7 @@ export default defineComponent({
               frontmatter.value.bgImage = withBase(image.url);
             }
           }
-          bingDatasRef.value = res.data.images;
+          bingDatasRef.value = res.data;
         }
       });
     };
