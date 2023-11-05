@@ -41,7 +41,7 @@ const props = defineProps({
   rDisabled: Boolean,
 });
 const title = computed(() => {
-  return props.bingData.locales.zh.title;
+  return props.bingData.locales?.zh?.title;
 });
 // 声明自定义事件
 const emit = defineEmits(["leftClick", "rightClick"]);

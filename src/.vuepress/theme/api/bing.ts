@@ -2,21 +2,6 @@
 import axios, { AxiosResponse } from "axios";
 
 export interface Image {
-  // bot: number;
-  // copyright: string;
-  // copyrightlink: string;
-  // drk: number;
-  // enddate: string;
-  // fullstartdate: string;
-  // hs: any[];
-  // hsh: string;
-  // quiz: string;
-  // startdate: string;
-  // title: string;
-  // top: number;
-  // url: string;
-  // urlbase: string;
-  // wp: boolean;
   url: string;
   wallpaper: string;
   downloadable: boolean;

@@ -34,21 +34,6 @@ export default defineUserConfig({
   ],
 
   theme: theme,
-  
-  bundler: viteBundler({
-    viteOptions: {
-      server: {
-        proxy: {
-          "/bing": {
-            target: "https://cn.bing.com",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/bing/, ""),
-          },
-        },
-      },
-    },
-    // vuePluginOptions: {},
-  }),
   // Enable it with pwa
   // shouldPrefetch: false,
 });
