@@ -13,6 +13,12 @@ export const friends: LinkData[] = [
     link: "https://flyingpig.me",
   },
   {
+    name:"Davidkroos",
+    desc:"重庆第一帅气男子",
+    icon:"https://profile-avatar.csdnimg.cn/3a14a4d7ec2a47c88f27b0b506b3b9aa_davidkroos.jpg",
+    link:"https://blog.csdn.net/Davidkroos",
+  },
+  {
     name: "上冬十二",
     desc: "到最后，竟庆幸于夕阳仍留在身上",
     icon: "https://oragekk.me/logo.svg",

@@ -1,7 +1,7 @@
 <template>
   <div id="BingSwitchWrapper">
     <a
-      :href="bingData.copyrightlink"
+      :href="bingData?.locales?.zh?.backstage"
       target="_Blank"
       id="bingLink"
       v-if="bingData"

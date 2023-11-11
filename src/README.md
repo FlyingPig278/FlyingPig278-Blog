@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: https://cdn.jsdelivr.net/gh/FlyingPig278/blog-assets/logo.png
+heroImage: /logo.ico
 heroText: FlyingPig278的博客
 heroFullScreen: true
 tagline: 一个无忧无虑的人呀~

@@ -13,11 +13,13 @@ export default MyTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://cdn.jsdelivr.net/gh/FlyingPig278/blog-assets/logo.png",
+  logo: "/logo.ico",
 
   repo: "FlyingPig278/FlyingPig278-Blog",
 
   docsDir: "src",
+
+  darkmode: "toggle",
 
   blog: {
     medias: {
@@ -27,7 +29,7 @@ export default MyTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "hello_ysy@163.com",
+      Email: "mailto:hello_ysy@163.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",

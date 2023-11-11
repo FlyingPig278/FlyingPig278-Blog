@@ -1,5 +1,5 @@
 ---
-icon: people
+icon: user
 cover: /assets/images/cover1.jpg
 date: 2023-11-5
 category:
