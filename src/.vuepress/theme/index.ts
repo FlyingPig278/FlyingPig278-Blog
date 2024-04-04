@@ -23,10 +23,6 @@ export const MyTheme = (options: ThemeOptions): Theme => {
         __dirname,
         "./components/BlogHero.vue"
       ),
-      "@theme-hope/modules/blog/components/InfoPanel": path.resolve(
-        __dirname,
-        "./components/InfoPanel.vue"
-      ),
     },
   };
 };
