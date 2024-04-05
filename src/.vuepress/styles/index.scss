@@ -1,8 +1,20 @@
 // place your custom styles here
-@font-face {
-  font-family: 'Ma Shan Zheng';
-  src: url('/fonts/MaShanZheng-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+.hitokoto-text span {
+    @font-face {
+        font-family: 'Ma Shan Zheng';
+        src: url('/fonts/MaShanZheng-Regular.ttf') format('truetype');
+    }
+    display: inline-block;
+    font-family: "Ma Shan Zheng","Microsoft YaHei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-size: 2.8rem;
+    font-weight: normal;
+}
+.hitokoto-text span::after{
+    font-size: 2rem;
+}
+.hitokoto-text::before {
+    font-size: 1.8rem;
+}
+.hitokoto-text::after {
+    font-size: 1.8rem;
 }

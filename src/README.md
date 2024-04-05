@@ -17,11 +17,7 @@ projects:
     name: 常用链接
     desc: 点我发现新大陆~
     link: /link
-
-  - icon: link
-    name: 友情链接
-    desc: (●´∀｀●)ﾉ
-    link: /friends
+    
   # - icon: book
   #   name: 书籍名称
   #   desc: 书籍详细描述

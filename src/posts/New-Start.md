@@ -1,5 +1,5 @@
 ---
-date: 2023-11-5
+date: 2023-11-05
 category:
     - 杂谈
 tag:

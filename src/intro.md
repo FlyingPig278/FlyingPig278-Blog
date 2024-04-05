@@ -1,7 +1,7 @@
 ---
 icon: user
 cover: /assets/images/cover1.jpg
-date: 2023-11-5
+date: 2023-11-05
 category:
   - About
 tag:

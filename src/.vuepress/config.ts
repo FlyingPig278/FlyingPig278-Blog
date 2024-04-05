@@ -1,49 +1,27 @@
-import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto";
-import { path } from "@vuepress/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",
 
-  locales: {
-    "/": {
-      lang: "zh-CN",
-      title: "FlyingPig278",
-      description: "FlyingPig278",
-    },
+  lang: "zh-CN",
+  title: "FlyingPig278",
+  description: "FlyingPig278's Blog",
+
+  theme,
+
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      __dirname,
+      "./components/BlogHero.vue",
+    ),
+    //TODO
+    //Add new collection page
+    //VPCard
   },
-
-  plugins: [
-    searchProPlugin({
-      // 索引全部内容
-      indexContent: true,
-      // 为分类和标签添加索引
-      customFields: [
-        {
-          getter: (page) => <string | string[]> page.frontmatter.category,
-          formatter: "分类：$content",
-        },
-        {
-          getter: (page) => <string | string[]> page.frontmatter.tag,
-          formatter: "标签：$content",
-        },
-      ],
-    }),
-    hitokotoPlugin({}),
-  ],
-
-  theme: theme,
-
-  alias:{
-    "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),
-  },
-  // Enable it with pwa
+  // 和 PWA 一起启用
   // shouldPrefetch: false,
-  bundler: viteBundler({
-    viteOptions: {},
-    vuePluginOptions: {},
-  }),
 });
