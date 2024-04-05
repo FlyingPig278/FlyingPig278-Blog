@@ -1,1 +1,0 @@
-import{L as o,M as n}from"./app-GUBbX-wv.js";const s=async()=>{const t=o();try{const{pageviewCount:e}=await n(()=>import("./app-GUBbX-wv.js").then(r=>r.N),[]);return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{s as updatePageview};
