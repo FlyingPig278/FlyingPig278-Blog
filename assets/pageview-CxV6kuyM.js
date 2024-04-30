@@ -1,1 +1,0 @@
-import{a6 as o,a7 as a}from"./app-BQUKIN20.js";const i=async()=>{const t=o();try{const{pageviewCount:e}=await a(()=>import("./app-BQUKIN20.js").then(r=>r.a8),[]);return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{i as updatePageview};
