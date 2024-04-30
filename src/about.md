@@ -18,10 +18,4 @@ Vue 驱动的静态网站生成器-[VuePress v2](https://v2.vuepress.vuejs.org/z
 ## 主题支持
 一个具有强大功能的 vuepress 主题✨-[VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
 ## 自定义内容
-1. **自定义组件**
-    - BlogHero.vue
-2. **自定义插件**
-    - vuepress-plugin-hitokoto （一言插件），基于[Oragekk的一言插件](https://github.com/OrageKK/oragekk.github.io)
-3. **其他**
-    - 评论功能目前基于[Waline](https://waline.js.org/)，运行在[Vercel](https://vercel.com/)上
-    - 博客首页显示Bing今日美图的功能基于[Oragekk的博客](https://github.com/OrageKK/oragekk.github.io)进行修改，使用了[VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)提供的API获取壁纸链接
+  - 评论功能目前基于[Waline](https://waline.js.org/)，运行在[Vercel](https://vercel.com/)上
