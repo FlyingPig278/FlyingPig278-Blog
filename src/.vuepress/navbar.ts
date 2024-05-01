@@ -11,6 +11,23 @@ export default navbar([
     ],
   },
   {
+    text: "随笔",
+    icon: "note",
+    prefix: "/note/",
+    children: [
+      {
+        text: "杂谈",
+        icon: "user",
+        link: "",
+      },
+      {
+        text: "生活",
+        icon: "life",
+        link: "life/",
+      },
+    ],
+  },
+  {
     text: "收藏",
     icon: "star",
     link: "/collect",
