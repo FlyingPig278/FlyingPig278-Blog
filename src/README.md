@@ -38,5 +38,5 @@ projects:
   #   desc: 自定义详细介绍
   #   link: https://你的自定义链接
 
-footer: 长风破浪会有时，直挂云帆济沧海
+footer: ✨长风破浪会有时，直挂云帆济沧海✨
 ---

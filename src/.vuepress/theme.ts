@@ -11,6 +11,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
+
   logo: "/logo.ico",
 
   repo: "FlyingPig278/FlyingPig278-Blog",
@@ -25,7 +26,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "长风破浪会有时，直挂云帆济沧海",
+  footer: "✨长风破浪会有时，直挂云帆济沧海✨",
   displayFooter: true,
 
   // 博客相关
@@ -77,7 +78,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "编辑此页",
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
