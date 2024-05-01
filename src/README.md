@@ -11,7 +11,7 @@ projects:
   - icon: circle-info
     name: 关于本站
     desc: 关于本站的详细介绍~
-    link: /about
+    link: /about.md
 
   - icon: star
     name: 收藏夹
