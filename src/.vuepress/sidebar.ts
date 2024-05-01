@@ -1,17 +1,19 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-    "/blogs/":"structure",
-
-    "/note/":"structure",
-
+    "/blogs/": "structure",
+    "/note/": "structure",
     "/": ["/about", "/intro"],
-
-    "/collection":"structure",
-
-    // {
-    //   text: "幻灯片",
-    //   icon: "person-chalkboard",
-    //   link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    // },
+    "/collection": [
+        "",
+        "game",
+        {
+            text: "工具",
+            icon: "screwdriver-wrench",
+            collapsible: true,
+            prefix: "tool/",
+            children: ["website", "software"]
+        },
+        "blog",
+    ],
 });

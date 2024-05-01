@@ -1,10 +1,14 @@
 ---
-icon: home
+icon: star
 article: false
 ---  
 # 收藏夹
-- 博客相关 [点击前往](blog)
+## <HopeIcon icon="book"/>博客  
+[点击前往](blog)  
 
-- 工具相关 [点击前往](tool)
+## <HopeIcon icon="screwdriver-wrench"/>工具
+#### <HopeIcon icon="link"/>网站: [点击前往](tool/website)    
+#### <HopeIcon icon="computer"/>软件: [点击前往](tool/software)
 
-- 游戏相关 [点击前往](game)
+## <HopeIcon icon="gamepad"/>游戏
+[点击前往](game)

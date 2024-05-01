@@ -18,10 +18,10 @@ projects:
     desc: 点我发现新大陆~
     link: /collection/
     
-  # - icon: book
-  #   name: 书籍名称
-  #   desc: 书籍详细描述
-  #   link: https://你的书籍链接
+  - icon: paper-plane
+    name: 随笔
+    desc: 偶尔的闲暇思考
+    link: /note/
 
   # - icon: article
   #   name: 文章名称
