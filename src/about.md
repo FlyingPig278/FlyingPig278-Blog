@@ -1,11 +1,7 @@
 ---
 date: 2023-11-04
 icon: info
-sidebar: false
-category:
-  - Blog
-tag:
-  - Blog
+star: true
 ---
 # 关于本站
 ::::info 

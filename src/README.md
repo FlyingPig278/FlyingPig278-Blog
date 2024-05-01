@@ -13,10 +13,10 @@ projects:
     desc: 关于本站的详细介绍~
     link: /about
 
-  - icon: link
-    name: 常用链接
+  - icon: star
+    name: 收藏夹
     desc: 点我发现新大陆~
-    link: /link
+    link: /collection/
     
   # - icon: book
   #   name: 书籍名称

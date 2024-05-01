@@ -1,9 +1,5 @@
 ---
 date: 2023-11-05
-category:
-    - 杂谈
-tag:
-    - Blog
 ---
 # 新的开始
 又是一个新的博客，基于VuePress@Next搭建，目前网站假设在GitHub Pages上，国内访问速度堪忧。  

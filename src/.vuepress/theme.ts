@@ -4,7 +4,6 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://flyingpig.top",
-
   author: {
     name: "FlyingPig278",
     url: "https://flyingpig.top",
@@ -12,18 +11,16 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
   logo: "/logo.ico",
 
   repo: "FlyingPig278/FlyingPig278-Blog",
-
   docsDir: "src",
+  docsBranch: "master",
 
   darkmode: "toggle",
 
   // 导航栏
   navbar,
-
   // 侧边栏
   sidebar,
 

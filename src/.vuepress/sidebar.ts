@@ -1,9 +1,13 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-    "/posts/":"structure",
+    "/blogs/":"structure",
 
     "/note/":"structure",
+
+    "/": ["/about", "/intro"],
+
+    "/collection":"structure",
 
     // {
     //   text: "幻灯片",
