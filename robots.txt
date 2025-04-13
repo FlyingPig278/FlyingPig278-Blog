@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://flyingpig.top/sitemap.xml
+Sitemap: https://flyingpig278.github.io/FlyingPig278-Blog/sitemap.xml
