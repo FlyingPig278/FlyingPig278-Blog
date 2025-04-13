@@ -18,6 +18,9 @@ article: false
 - [CurseForge](https://www.curseforge.com/minecraft)
 - [LittleSkin皮肤站](https://littleskin.cn/)
 - [Minecraft Apps](https://www.chunkbase.com/apps)
+- [开服命令生成](https://flags.sh/)
+- [我的世界高版本服主教程合集](https://docs.superiormc.cn/)
+- [笨蛋MC开服教程](https://nitwikit.yizhan.wiki/)
 ## 戴森球计划 Dyson Sphere Program
 - [制作组-Bilibili](https://space.bilibili.com/481714350)
 - [Dyson Sphere Blueprints](https://www.dysonsphereblueprints.com)
